@@ -1,1 +1,11 @@
-
+:root {
+    --red: #a03335;
+    --light-blue: #51b4b4;
+    --dark-blue: #4993cf;
+    --yellow: #e9a031;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
