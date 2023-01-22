@@ -35,14 +35,14 @@ body {
 
 
 .card > h3 {
-    font-size: 26px;
-    margin: 0 0 25px 0;
+    font-size: 28px;
+    margin: 0 0 15px 0;
 }
 .card > h6 {
     color: hsl(229, 6%, 66%);
     font-weight: 400;
     font-size: 24px;
-    margin-bottom: 50px;
+    margin-top: 0;
 }
 #cards-section {
     display: flex;
@@ -58,6 +58,9 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 20px  rgb(0, 0, 0, 0.1);
     padding: 50px 50px 70px 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
 }
 .col-2 {
     display: flex;
@@ -77,9 +80,8 @@ body {
     border-top: solid var(--dark-blue) 5px;
 }
 .icon {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 60px;
+    text-align: right;
+    font-size: 90px;
 }
 @media (max-width: 1770px) {
     #top-article {
@@ -102,12 +104,13 @@ body {
     }
     #top-article > h5 {
         font-size: 1.5rem;
-        padding: 5px;
+        padding: 5px 35px;
     }
     #span-h1 {
         padding: 0 5px;
     }
     #bold-h1 {
         padding: 0 15px;
+        font-size: 28px;
     }
 }
