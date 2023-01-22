@@ -7,29 +7,42 @@
     <link rel="stylesheet" href="styles.css">
     <title>Four Card Feature Section</title>
     <script src="https://kit.fontawesome.com/b2721d4fd7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="top-article">
-        <h1>Reliable, efficient. delievery</h1>
-        <h1>Powered by Technology</h1>
-        <p>Our artificial intelligence powered tools use millions of project data<br> points to ensure that your project is successful</p>
+        <h1 id="bold-h1">Reliable, efficient, delievery<br>
+            <span id="span-h1">Powered by Technology</span>
+        </h1>
+        <h5>Our artificial intelligence powered tools use millions of project data points to ensure that your project is successful</h5>
     </div>
+    
     <div id="cards-section">
-        <div class="card">
+        <div class="card supervisor-card col-1">
             <h3>Supervisor</h3>
-            <p>Monitors activity to identify project<br> roadblocks</p>
+            <h6>Monitors activity to identify project<br> roadblocks</h6>
+            <i class="fa-solid fa-magnifying-glass icon"></i>
         </div>
-        <div class="card">
+
+        <div class="col-2">
+        <div class="card team-builder-card" >
             <h3>Team Builder</h3>
-            <p>Scans our talent network to create the<br> optimal team for your project</p>
+            <h6>Scans our talent network to create the<br> optimal team for your project</h6>
+            <i class="fa-solid fa-window-maximize icon"></i>
         </div>
-        <div class="card">
+        <div class="card karma-card">
             <h3>Karma</h3>
-            <p>Regularly evaluates our talent to<br> ensure quality</p>
+            <h6>Regularly evaluates our talent to<br> ensure quality</h6>
+            <i class="fa-solid fa-lightbulb icon"></i>
         </div>
-        <div class="card">
+        </div>
+
+        <div class="card calculator-card col-3">
             <h3>Calculator</h3>
-            <p>Uses data from past projects to<br> provide better delievery estimates</p>
+            <h6>Uses data from past projects to<br> provide better delievery estimates</h6>
+            <i class="fa-solid fa-desktop icon"></i>
         </div>
     </div>
 </body>
